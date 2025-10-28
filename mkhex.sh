@@ -18,4 +18,9 @@ echo primes $p
 echo k $k
 echo
 
+if [ $p -gt 0 ]; then
+  echo "Found primes:"
+  cat primes.log
+fi
+
 # source - http://stackoverflow.com/questions/19732162/openssl-generate-prime-number
